@@ -1,0 +1,41 @@
+#principal {
+  width: 100%;
+  height: auto;
+}
+
+#title{
+  padding: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#img-div{
+  width: 100%;
+}
+
+#image{
+  display: block;
+  position: relative;
+  height: auto;
+  margin: auto;
+}
+
+#img-caption{
+  font-size: 15px;
+}
+
+#tribute-info{
+  text-align: justify;
+  padding: 15px;
+} /* info de la pagina */
+
+#tribute-link{
+
+}
+
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}

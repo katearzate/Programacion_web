@@ -1,0 +1,54 @@
+.table{
+  position:
+  display: table;
+  width: auto;
+  margin: auto;
+}
+
+.caption{
+    display: table-caption;
+    margin: auto;
+    background-color: Maroon;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.thead{
+  display: table-header-group;
+}
+
+.cell{
+  display: table-cell;
+  font-weight:bold;
+}
+
+.tbody{
+  display: table-row-group;
+}
+
+.trow{
+  display: table-row;
+  text-align: center;
+}
+
+img{
+  height: 150px;
+  width: 220px;
+  border-left: 3px solid white;
+}
+
+
+.cell:nth-of-type(2n){
+  position: relative;
+  bottom: 100px;
+  padding-right: 20px;
+}
+
+body{
+  background-color: LINEN;
+}

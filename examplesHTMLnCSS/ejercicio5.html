@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Email address generador</title>
+  </head>
+  <body>
+    <script>
+      function genEmail (button) {
+        console.log(button.form.elements);
+
+        let address = button.form.elements;
+        let nom = address['fname'].value;
+        let ape = address['lname'].value;
+        let completo = nom + '.' + ape +'@gmail.com';
+
+        document.getElementById('completo').innerHTML = completo;
+      }
+    </script>
+
+    <h1>Enter your first and last names then click the button</h1>
+    <form>
+      <label for="fname">First Name: </label>
+      <input type="text" name="fname" value=""><br>
+      <label for="lname">Last Name: </label>
+      <input type="text" name="lname" value=""><br><br>
+      <input type="button" value="Generate email" onclick="genEmail(this)">
+      <br>
+      <h3 id="completo"></h3>
+    </form>
+  </body>
+</html>
