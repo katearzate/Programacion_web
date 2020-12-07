@@ -1,0 +1,84 @@
+body{
+  background-image: linear-gradient(lightsteelblue, oldlace, white);
+  font-family: georgia, sans-serif;
+}
+
+iframe{
+  padding: 13px;
+  width: 320px;
+  height: 180px;
+}
+
+#seccion{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+    /*caracteristicas de la seccion de videos*/
+.secVideo{
+  position: relative;
+  display: inline-block;
+  max-width: 350px;
+  max-height: 400px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: black;
+}
+
+.descripcionv{
+  max-width: 350px;
+  text-align: justify;
+}
+
+.secAudio{
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  max-height: 480px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: black;
+}
+
+    /*caracteristicas de la seccion de audios*/
+.album img{
+  padding: 13px;
+  width: 320px;
+  height: 320px;
+}
+
+.album audio{
+  padding-left: 13px;
+  padding-bottom: 12px;
+  padding-right: 15px;
+  width: 320px;
+  height: 40px;
+}
+
+.album h2{
+  padding-top: -100px;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+p{
+  font-size: 15px;
+  padding: 20px;
+  margin-top: -25px;
+  color: white;
+}
